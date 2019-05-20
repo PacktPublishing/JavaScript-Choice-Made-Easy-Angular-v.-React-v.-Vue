@@ -1,0 +1,51 @@
+.single-image {
+  display: inline-block;
+  -webkit-user-select: none;
+  padding: 30px;
+  border: 1px solid #191a1a;
+  position: relative;
+  text-align: center;
+
+  img {
+    width: 200px;
+    opacity: 0.75;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .like-image {
+    cursor: pointer;
+    color: white;
+
+    &:hover {
+      color: red;
+    }
+
+    &.liked {
+      color: red;
+    }
+  }
+}
+
+@keyframes heart-animation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.heart-animation {
+  position: absolute;
+  top: calc(50% - 64px);
+  left: calc(50% - 64px);
+  font-size: 128px;
+  animation-name: heart-animation;
+  animation-duration: 1.5s;
+  color: red;
+  opacity: 0;
+  pointer-events: none;
+}

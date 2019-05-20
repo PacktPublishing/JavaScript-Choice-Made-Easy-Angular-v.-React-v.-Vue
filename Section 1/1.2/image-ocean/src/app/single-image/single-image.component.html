@@ -1,0 +1,13 @@
+<div class="single-image" *ngIf="image">
+  <header>{{image.title}}</header>
+
+  <img src="{{image.imagePath}}" routerLink="/image/{{image.id}}"/>
+
+  <div class="heart-animation" *ngIf="image.liked">
+      <i class="fa fa-heart" class="fa fa-heart"></i>
+  </div>
+
+  <footer class="like-image" (click)="image.like()">
+    <i class="fa fa-heart" class="fa fa-heart"></i> {{image.liked ? "liked" : "like"}}
+  </footer>
+</div>

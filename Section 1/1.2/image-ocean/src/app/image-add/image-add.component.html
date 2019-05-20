@@ -1,0 +1,29 @@
+<md-card style="width: 270px; margin: auto;">
+  <md-card-title>Add image</md-card-title>
+
+  <button md-raised-button (click)="imageInput.click()" color="primary">
+    <md-icon>library_add</md-icon>
+    <span>Choose image</span>
+    <input type="file" #imageInput style="display:none;"/>
+  </button>
+
+  <br/><br/>
+
+  <md-form-field>
+    <input mdInput placeholder="Image name..." [(ngModel)]="imageName">
+  </md-form-field>
+
+  <br/>
+  <md-form-field>
+    <input mdInput [mdDatepicker]="picker" placeholder="Choose a date">
+    <md-datepicker-toggle mdSuffix [for]="picker"></md-datepicker-toggle>
+    <md-datepicker #picker></md-datepicker>
+  </md-form-field>
+
+  <br/>
+
+  <button type="button" (click)="upload()" md-raised-button color="primary">Upload</button>
+
+  <br/>
+
+</md-card>

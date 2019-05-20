@@ -1,0 +1,17 @@
+.DisplayProduct {
+  display: inline-block;
+  padding: 0 20px;
+  text-align: center; }
+  .DisplayProduct-image {
+    width: 300px;
+    overflow: hidden;
+    max-height: 300px;
+    min-height: 200px;
+    text-align: center;
+    margin: auto;
+    position: relative; }
+    .DisplayProduct-image img {
+      width: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0; }

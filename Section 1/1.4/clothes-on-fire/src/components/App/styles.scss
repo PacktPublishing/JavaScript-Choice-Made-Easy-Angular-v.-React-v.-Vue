@@ -1,0 +1,68 @@
+@import '../../../node_modules/animate.css/animate.min.css';
+
+.App {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App-logo {
+    height: 80px;
+    font-size: 70px;
+}
+
+.App-title {
+    color: black;
+    cursor: pointer;
+    display: block;
+    width: 360px;
+    margin: auto;
+}
+
+.App-header {
+    background-color: #222;
+    background: url('../../images/4.jpg');
+    height: 150px;
+    padding: 20px;
+    color: white;
+    letter-spacing: 10px;
+    background-size: cover;
+    background-position: 0 -10px;
+    position: relative;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.App {
+    &-categories {
+        position: relative;
+        height: calc(100vh - 240px);
+    }
+    
+    &-category {
+        max-height: 50%;
+        overflow: hidden;
+        position: relative;
+
+        &-front-image {
+            width: 100%;
+            display: block;
+        }
+
+        &-title {
+            z-index: 1;
+            font-size: 28px;
+            color: black;
+            position: absolute;
+            top: 20%;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}
