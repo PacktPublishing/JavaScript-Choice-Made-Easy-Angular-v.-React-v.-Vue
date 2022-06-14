@@ -1,7 +1,3 @@
-## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/V09057?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
------
-For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
-
 # JavaScript Choice Made Easy - Angular v. React v. Vue [Video]
 This is the code repository for [JavaScript Choice Made Easy - Angular v. React v. Vue [Video]](https://www.packtpub.com/application-development/javascript-choice-made-easy-angular-v-react-v-vue-video?utm_source=github&utm_medium=repository&utm_campaign=9781788625326), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
